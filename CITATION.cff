@@ -13,6 +13,22 @@ version: 1.0.0
 date-released: 2026-07-27
 keywords:
   - lung adenocarcinoma
+  - LUAD
+  - tumor immune microenvironment
   - immune deconvolution
   - bulk RNA-seq
   - survival analysis
+  - computational biology
+preferred-citation:
+  type: article
+  title: "Transcriptome-Based Immune Phenotyping and Survival Stratification in Lung Adenocarcinoma"
+  authors:
+    - family-names: Vetsa
+      given-names: Jayaditya
+    - family-names: Veerapaneni
+      given-names: Sai Venkat
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.21630124"
+  url: "https://doi.org/10.5281/zenodo.21630124"
