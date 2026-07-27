@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the archived release and associated preprint."
+title: "Transcriptome-Based Immune Phenotyping and Survival Stratification in Lung Adenocarcinoma"
+type: software
+authors:
+  - family-names: Vetsa
+    given-names: Jayaditya
+  - family-names: Veerapaneni
+    given-names: Sai Venkat
+repository-code: "https://github.com/JayadityaVetsa/luad-immune-phenotyping"
+license: MIT
+version: 1.0.0
+date-released: 2026-07-27
+keywords:
+  - lung adenocarcinoma
+  - immune deconvolution
+  - bulk RNA-seq
+  - survival analysis

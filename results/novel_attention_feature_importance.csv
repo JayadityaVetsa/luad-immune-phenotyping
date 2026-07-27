@@ -1,0 +1,10 @@
+feature,attention_weight
+Macrophage_Blockade,0.16578476
+Quantiseq_Macrophage_M2,0.15023606
+effector_suppressor_balance,0.12586477
+Quantiseq_T_cell_CD8+,0.115359485
+Quantiseq_T_cell_regulatory_(Tregs),0.09745951
+Epidish_BPRNACan_M2,0.088619485
+hub_cell_abundance,0.08761527
+Quantiseq_B_cell,0.08608433
+network_alignment,0.08297642

@@ -1,0 +1,38 @@
+{
+  "cancer_classification": {
+    "test_accuracy": 1.0,
+    "cv_mean": 0.980952380952381,
+    "cv_std": 0.023328473740792197,
+    "cv_scores": [
+      1.0,
+      1.0,
+      1.0,
+      0.9523809523809523,
+      0.9523809523809523
+    ],
+    "accuracy_95ci": [
+      1.0,
+      1.0
+    ]
+  },
+  "phenotype_classification": {
+    "test_accuracy": 0.7647058823529411,
+    "cv_mean": 0.9454545454545455,
+    "cv_std": 0.07272727272727271,
+    "classes": [
+      "Immune-Desert",
+      "Immune-Inflamed",
+      "Immune-Suppressed"
+    ]
+  },
+  "cluster_anova": {
+    "f_statistic": 16.345400422167266,
+    "p_value": 3.1070246906300587e-06,
+    "significant": true
+  },
+  "cluster_distribution": {
+    "Immune-Desert": 26,
+    "Immune-Inflamed": 19,
+    "Immune-Suppressed": 10
+  }
+}

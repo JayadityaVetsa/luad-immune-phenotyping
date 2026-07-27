@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "n_patients": 55,
+    "n_events": 27,
+    "median_followup_months": 29.730617608409986,
+    "logrank_p": 0.009130978135366813,
+    "significant_difference": true
+  },
+  "logrank_overall": {
+    "chi_square": 9.392164911800975,
+    "p_value": 0.009130978135366813
+  },
+  "median_survival": {
+    "Immune-Inflamed": 78.61366622864651,
+    "Immune-Suppressed": null,
+    "Immune-Desert": 29.730617608409986
+  },
+  "hazard_ratios": {
+    "Immune-Desert": {
+      "HR": 2.948955702689872,
+      "HR_lower_95": 1.2587284060234492,
+      "HR_upper_95": 6.908829335075091,
+      "p_value": 0.012785038244556882,
+      "significant": true
+    },
+    "Immune-Suppressed": {
+      "HR": 0.6887669056579899,
+      "HR_lower_95": 0.14568723398162967,
+      "HR_upper_95": 3.2562897747753343,
+      "p_value": 0.6380514854011622,
+      "significant": false
+    }
+  }
+}

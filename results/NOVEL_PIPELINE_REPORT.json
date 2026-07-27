@@ -1,0 +1,91 @@
+{
+  "project_title": "Novel Computational Framework for Immune Phenotyping in Lung Adenocarcinoma",
+  "author": "[Your Name]",
+  "date": "2026-01-11",
+  "novel_contributions": [
+    {
+      "name": "Adaptive Weighted Ensemble Deconvolution (AWED)",
+      "description": "First attention-weighted consensus method for deconvolution",
+      "key_innovation": "Adaptive weighting based on algorithm agreement per sample",
+      "metrics": {
+        "enhanced_features": 210,
+        "uncertainty_quantified": true
+      }
+    },
+    {
+      "name": "Immune Cell Interaction Network Dynamics (ICIND)",
+      "description": "Graph-based immune network analysis",
+      "key_innovation": "Novel Immune Coordination and Disruption Scores",
+      "metrics": {
+        "normal_coordination": 0.4301733237670003,
+        "tumor_coordination": 0.3954818255635511,
+        "disruption_score": 0.05599525366859264
+      }
+    },
+    {
+      "name": "Attention-Based Deep Learning Phenotyping",
+      "description": "Neural network with attention mechanism for phenotype prediction",
+      "key_innovation": "Multi-task learning (phenotype + survival) with interpretability",
+      "metrics": {
+        "validation_accuracy": 0.9708029197080292
+      }
+    }
+  ],
+  "sample_statistics": {
+    "total_patients": 682,
+    "phenotype_distribution": {
+      "Immune-Desert": 385,
+      "Immune-Inflamed": 163,
+      "Immune-Suppressed": 134
+    },
+    "dl_phenotype_distribution": {
+      "Immune-Desert": 386,
+      "Immune-Inflamed": 162,
+      "Immune-Suppressed": 134
+    }
+  },
+  "top_features": [
+    {
+      "feature": "Macrophage_Blockade",
+      "attention_weight": 0.16578476130962372
+    },
+    {
+      "feature": "Quantiseq_Macrophage_M2",
+      "attention_weight": 0.15023605525493622
+    },
+    {
+      "feature": "effector_suppressor_balance",
+      "attention_weight": 0.12586477398872375
+    },
+    {
+      "feature": "Quantiseq_T_cell_CD8+",
+      "attention_weight": 0.11535948514938354
+    },
+    {
+      "feature": "Quantiseq_T_cell_regulatory_(Tregs)",
+      "attention_weight": 0.09745950996875763
+    },
+    {
+      "feature": "Epidish_BPRNACan_M2",
+      "attention_weight": 0.08861948549747467
+    },
+    {
+      "feature": "hub_cell_abundance",
+      "attention_weight": 0.08761526644229889
+    },
+    {
+      "feature": "Quantiseq_B_cell",
+      "attention_weight": 0.08608432859182358
+    },
+    {
+      "feature": "network_alignment",
+      "attention_weight": 0.08297642320394516
+    }
+  ],
+  "comparison_to_standard": {
+    "phenotype_agreement": {
+      "adjusted_rand_index": 0.9859688246730383,
+      "normalized_mutual_info": 0.9711367037251714
+    }
+  }
+}
